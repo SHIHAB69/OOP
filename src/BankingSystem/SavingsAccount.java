@@ -1,7 +1,7 @@
 package src.BankingSystem;
 
 public class SavingsAccount extends BankAccount{
-    private double interestRate;
+    private final double interestRate;
     public SavingsAccount(String accountNumber, String accountHolderName, double balance , double interestRate){
         super(accountNumber,accountHolderName,balance);
         this.interestRate = interestRate;
