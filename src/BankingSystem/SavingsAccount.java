@@ -20,14 +20,14 @@ public class SavingsAccount extends BankAccount{
     public void withdraw(double amount){
         if (amount > 0 && amount <= balance){
             balance -= amount;
-            System.out.println("Deposited: $" + amount);
+            System.out.println("Withdrawal: $" + amount);
         }else {
             System.out.println("Invalid withdrawl amount or insufficient balance");
         }
     }
 
     public void applyInterest(){
-        balance += balance * interestRate;
+        balance += balance * (interestRate /100);
         System.out.println("Interest applied: $" + (balance * interestRate));
     }
 
