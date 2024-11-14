@@ -11,7 +11,7 @@ public class Main {
 //        BoxWeight box4 = new BoxWeight(0.1,1.0,3.0,10.0);
 //        System.out.println(box3.h+" "+box3.weight);
 
-        Box box5 = new BoxWeight(1.0,1.0,3.0,10);
+       Box box5 = new BoxWeight(1.0,1.0,3.0,10);
 
     }
 }

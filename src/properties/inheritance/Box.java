@@ -1,6 +1,6 @@
 package src.properties.inheritance;
 
-public class Box {
+public class Box{
     double l;
     double h;
     double w;
@@ -22,7 +22,7 @@ public class Box {
         this.w = w;
     }
 
-    Box(Box old){
+    Box(Box old) {
         this.l = old.l;
         this.h = old.h;
         this.w = old.w;
