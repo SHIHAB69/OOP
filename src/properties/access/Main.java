@@ -7,4 +7,5 @@ public class Main {
         int a = obj.getNum();
 
     }
+
 }
